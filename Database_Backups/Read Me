@@ -1,0 +1,189 @@
+Xampp Controll Panel Start
+
+> sudo /opt/lampp/manager-linux-x64.run
+
+> sudo /opt/lampp/lampp stop
+
+> sudo service apache2 stop
+
+
+> fb : https://www.facebook.com/rishii.kesh.96 
+>Pass: 9879
+
+
+Example: https://codepen.io/legarth/pen/VQPZPY
+
+
+#summer
+			https://www.instagram.com/explore/tags/summer/
+Instagram : https://www.instagram.com/explore/tags/summer/?__a=1
+
+
+#summer
+Facebook  : https://graph.facebook.com/search?q=%23myhashtag
+
+
+-----------
+Twitter 
+
+> https://gist.github.com/ValentinH/8266635
+
+
+https://api.twitter.com/1.1/search/tweets.json?q=%23hello&include_entities=true
+
+
+https://localhost.com/twitter.com
+
+-------------
+
+
+Instagram
+
+View > https://www.instagram.com/explore/tags/halloween/
+Api  > https://www.instagram.com/explore/tags/halloween/?__a=1
+
+-----------
+
+
+Facebook
+
+View > https://www.facebook.com/hashtag/dogs
+Api  > 
+
+Email: rishiii@22office.com
+Pass: elsneradmin
+
+
+https://graph.facebook.com/search?access_token=YOUR_TOKEN&type=post&q=%23the_hash_tag
+
+
+https://graph.facebook.com/search?access_token=606343186475644|aab3203d2fee6c0eb72aece9d986e201&type=post&q=%23the_hash_tag
+
+
+
+
+
+
+---------------
+
+
+https://www.hashatit.com/hashtags/hello
+
+
+
+https://twitter.com/hashtag/TuesdayThoughts?src=tren&data_id=tweet%3A1090146884155453440
+
+https://twitter.com/search?q=%23hello
+https://twitter.com/search?q=%23Hello&src=tyah
+
+
+https://api.twitter.com/1.1/search/tweets.json?q=%23Hello&src=tyah
+
+
+
+
+
+
+---------------------------------------------------------
+
+CodeIgniter Project
+
+---------------------------------------------------------
+
+ -> Login - Registration
+
+ -> Product CRUD
+ -> Category CRUD
+ -> Product Can assign to multiple Category
+ -> Users Only see edit and delete option on own Product can Category
+
+
+ -> Category -> cid,cname,cdetails, cicon, uid(who added this category),category_status
+
+ -> Product -> pid,pname, product_category(multiple), product_price, product_description, product_image (multiple), uid(who added this Product) , product_status
+
+ -> User -> id,first_name,last_name,email,password
+
+
+
+ amazon -> admin | seller | buyer
+
+
+> System has more then one users
+> Users can only edit products which are added by them self 
+> they can show all products
+
+-------------------------------------
+
+
+1.category should not be saved as comma separated
+2.product prize  should be numeric  --> Done
+3.Product details page create
+4.Product Other images
+------------------------
+
+#1a242f !important
+
+---------------------
+
+
+1. Jquery Validation on Form - Register and Login -- Done!!
+4. Category, Product Page Jquery Validation -- Done!!
+
+2. Selected Menu Highlightes -- Done!!
+3. Out Side the Label On file upload -- Done!!
+
+8. Footer Added and Include in Pages -- Done!!
+9. Products Price Accept .(Decimal Points)  -- Done!!
+6. Pagination Add on Add Category List & Add Products List -- Done !!
+
+
+5. Create Different Page For View Products Lists, View Category List -- Done !!
+7. Display Category - Add Pagination
+
+
+
+
+
+
+
+
+---------------------------
+product_Details_table
+----------------------------------
+SNO		pid  	cid 	 uid
+----------------------------------
+1
+2
+3
+4
+5
+
+
+
+
+
+----------------------------
+
+
+
+
+
+
+
+
+
+-----------------------
+
+CREATE TABLE `users` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+ `email` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+ `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `gender` enum('Male','Female') COLLATE utf8_unicode_ci NULL,
+ `phone` varchar(15) COLLATE utf8_unicode_ci NULL,
+ `created` datetime NOT NULL,
+ `modified` datetime NOT NULL,
+ `status` enum('1','0') COLLATE utf8_unicode_ci NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
